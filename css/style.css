@@ -198,7 +198,7 @@ figure {
 }
 
 @media screen and (max-width:1200px) {
-  .responsive {
+  main {
     flex-direction: row;
     background-color: white;
   }
@@ -208,10 +208,10 @@ figure {
 }
 
 @media screen and (max-width: 800px) {
-  body {
+  main {
     text-align: center;
   }
-  .responsive {
+  section {
     flex-direction: column;
     background-color: #EBEBE0;
   }
