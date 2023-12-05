@@ -199,6 +199,7 @@ figure {
 
 @media screen and (max-width:1200px) {
   main {
+    display: flex;
     flex-direction: row;
     background-color: white;
   }
@@ -212,6 +213,7 @@ figure {
     text-align: center;
   }
   section {
+    display: flex;
     flex-direction: column;
     background-color: #EBEBE0;
   }
