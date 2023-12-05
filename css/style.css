@@ -198,8 +198,7 @@ figure {
 }
 
 @media screen and (max-width:1200px) {
-  main {
-    display: flex;
+  .query {
     flex-direction: row;
     background-color: white;
   }
@@ -209,11 +208,10 @@ figure {
 }
 
 @media screen and (max-width: 800px) {
-  main {
+  body {
     text-align: center;
   }
-  section {
-    display: flex;
+  .query {
     flex-direction: column;
     background-color: #EBEBE0;
   }
